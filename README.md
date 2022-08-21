@@ -6,8 +6,8 @@ Alphabet Soup's business team has provided a dataset containing more than 34,000
   
   
 ### Resources
--Data Sources: [charity_data.csv](https://github.com/Bulzeye89/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv) 
--Software: Python, Jupyter Notebook
+- Data Sources: [charity_data.csv](https://github.com/Bulzeye89/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv) 
+- Software: Python, Jupyter Notebook
 
 ## Data Preprocessing
   1.  The columns labeled "EIN" and "NAME" were dropped from the dataset as they are identification information and will not be used as features.  
