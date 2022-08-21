@@ -19,7 +19,7 @@ Alphabet Soup's business team has provided a dataset containing more than 34,000
 ## Compiling, Training, and Evaluating the Model
 For the initial deep-learning neural network model, the input data had 43 features.  Three layers total were used.  The first two were hidden layers using the "relu" activation function and had neurons of 80 and 30 and respectively.  The output model used the sigmoid function since our target output is binary.  With these parameters in place, the evaluation of the model only had 73.08% accuracy, falling below our target model performance.  
 <p float="left">
-<img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Total_Summary.png" 
+<img src="https://github.com/Bulzeye89/Neural_Network_Charity_Analysis/blob/main/Resources/Images%20for%20Readme/Initial_Model.png" 
 </p>  
 
 ## Optimizing the Model
@@ -28,21 +28,21 @@ For the initial deep-learning neural network model, the input data had 43 featur
 The first and second hidden layers' activation functions were changed to tanh to see if the model could be brought above the 75% target model performance.  It performed slightly worse than the initial model at a 72.89% accuracy on the test data.
 
 <p float="left">
-<img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Population_ttest.png" 
+<img src="https://github.com/Bulzeye89/Neural_Network_Charity_Analysis/blob/main/Resources/Images%20for%20Readme/firstattempt.png" 
 </p>  
  
 ### Attempt 2
 The activation functions in the first and second hidden layers were changed back to "relu".  A third hidden layer was added that also used the "relu" activation function.  Then the number of neurons were increase for the first and second hidden layer to 100 and 40 while the third hidden layer was set to 20.  These parameters performed roughly the same at a 72.84% accuracy on the test data, again falling below the 75% threshold goal.  
 
 <p float="left">
-<img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Population_ttest.png" 
+<img src="https://github.com/Bulzeye89/Neural_Network_Charity_Analysis/blob/main/Resources/Images%20for%20Readme/secondattempt.png" 
 </p>  
 
 ### Attempt 3
 The binning process for the "APPLICATION_TYPE" and "CLASSIFICATION" columns done in the initial model was altered slightly for the third attempt at optimizing the model.  "APPLICATION_TYPE" increased from 9 bins to 10 bins while "CLASSIFICATION" increased from 6 bins to 9 bins.  In addition, the # of neurons in the three hidden layers was decreased to 30, 15, and 5.  This attempt, again fell below our target 75% and performed similar to the other attempts with an accuracy of 72.87% on the test data.  
 
 <p float="left">
-<img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Population_ttest.png" 
+<img src="https://github.com/Bulzeye89/Neural_Network_Charity_Analysis/blob/main/Resources/Images%20for%20Readme/thirdattempt.png" 
 </p>  
 
 
